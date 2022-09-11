@@ -1,0 +1,184 @@
+
+.header {
+    background: url(../img/destaque.jpeg) no-repeat;
+    background-size: cover;/* estica a imagem para caber em toda a tela */
+    padding-top: 32px;
+    
+}
+
+.header .main-menu {
+    text-align: center;
+}
+
+.header .main-menu .menu-item {
+    display: inline-block;
+    margin: 0 2px 32px 0;
+}
+
+.header .main-menu .menu-item a {
+    color: white;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header .menu-item a:hover {
+    transition: ease 0.5s;
+    background-color: #46989D;
+}
+
+
+.tema h1{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 4px 4px 0.05em black;
+}
+
+.tema h2{
+    text-transform: uppercase;
+    color: rgb(9, 236, 9);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 0.02em black;
+}
+
+.button{
+    text-align: center;
+    margin: 80px;
+    padding-bottom: 30px;
+}
+
+.button a{
+    text-transform: uppercase;
+    background-color: #46989D;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+@media(min-width: 600px){
+    .tema h1{
+        font-size: 80px;
+    }
+
+    .tema h2{
+        font-size: 70px;
+    }
+}
+
+
+/* Conteudo da pagina */
+.mobile-desktop{
+    text-align: center;
+    font-weight: bold;
+}
+
+.mobile{
+    margin: 20px 0px 50px 0px;
+}
+
+.desktop{
+    width: 380px;
+    height: 380px;
+    margin-top: 20px;
+}
+
+/* FOTOS PALESTRANTES */
+
+.cabecalho{
+    text-align: center;
+    background-color:#ef7247;
+    color: white;
+}
+
+.painel-palestrante{
+    background: white;
+    color: black;
+    display: inline-block;
+    margin: 0 16px 32px 0;
+    border-radius: 10px;
+    vertical-align: top;
+    width: 280px;
+}
+
+.titulo  {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+    padding: 8px;
+}
+
+.subtitulo{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.bio-palestrante{
+    font-weight: bold;
+    color: black;
+}
+
+.perfil-palestrante{
+    padding: 20px;
+}
+
+.foto-palestrante{
+    border-radius: 50%;
+}
+
+.palestrante-nome{
+    margin: 10px 0 10px 0;
+}
+
+/* FORMULÁRIO */
+
+.titulo-formulario{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0 15px 0;
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ef7247;
+}
+
+.formulario {
+    font-weight: bold;
+    padding: 10px;
+}
+
+#nome-formulario, #email-formulario {
+    border: 1px solid #46989D;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.botao{
+    text-align: center;
+}
+
+.botao-formulario {
+    text-transform: uppercase;
+    padding: 15px;
+    border: 1px solid #867f7f;
+    color: white;
+    background-color: #46989D;
+    border-radius: 5px;
+}
+
+.campo-nome, .campo-email{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
